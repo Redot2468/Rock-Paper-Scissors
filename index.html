@@ -4,13 +4,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="description" content="A rock paper scissors game" />
+    <title>Rock, Paper, Scissors</title>
 
     <!-- stylesheets -->
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <main></main>
+    <header>
+      <h1 class="header">Rock, Paper, Scissors</h1>
+      <p class="header__desc">
+        <span>Rock</span> beats <span>scissors</span>,
+        <span>scissors</span> beats <span>paper</span>, and
+        <span>paper</span> beats <span>Rock</span>.
+      </p>
+    </header>
+
+    <main>
+      <!-- score board -->
+      <div class="score__board">
+        <div class="score__board-header"><h2>Scoreboard</h2></div>
+        <div class="player__score">
+          <h3 class="player">0</h3>
+          <p>You</p>
+        </div>
+        <div class="bot__score">
+          <h3 class="bot">0</h3>
+          <p>Bot</p>
+        </div>
+      </div>
+
+      <h2 class="choose__wisely">Choose Wisely</h2>
+
+      <!-- buttons -->
+      <div class="game__buttons">
+        <button class="btn btn__rock">Rock</button>
+        <button class="btn btn__paper">Paper</button>
+        <button class="btn btn__scissors">Scissors</button>
+      </div>
+
+      <footer class="footer"></footer>
+    </main>
+
+    <!-- scripts -->
+    <script src="./js/main.js"></script>
   </body>
 </html>
