@@ -1,4 +1,4 @@
-#### Rock paper scissor
+### Rock paper scissor
 
 
 ## Table of contents
